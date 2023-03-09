@@ -6,12 +6,12 @@
 }
 
 body {
-    background-color: aqua;
+    background-color: black;
 }
 
 header {
     height: 70px;
-    background-color: black;
+    margin: 0 10px;
     color: white;
 }
 
@@ -47,12 +47,24 @@ header {
     background-color: antiquewhite;
 }
 
-.contFooter {
-    background-color: #222222;
-    height: 80px;
-}
-
 img {
     height: 100%;
     width: 100%;
+}
+
+.relative {
+    position: relative;
+}
+
+.card i {
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    color: white;
+    font-size: 12px;
+}
+
+.contFooter {
+    background-color: #222222;
+    height: 80px;
 }
