@@ -35,7 +35,7 @@ header {
 }
 
 .contMain {
-    height: calc( 100vh - 70px - 80px );
+    height: calc( 100vh - 70px - 85px );
     justify-content: space-between;
     flex-wrap: wrap;
 }
