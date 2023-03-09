@@ -2,8 +2,57 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: aqua;
 }
 
 header {
     height: 70px;
+    background-color: black;
+    color: white;
+}
+
+.flex {
+    display: flex;
+}
+
+.boxed {
+    max-width: 1750px;
+    margin: 0 auto;
+}
+
+.contHeader span {
+    padding: 5px;
+    background-color: lightgray;
+    border-radius: 3px;
+    margin: 5px;
+}
+
+.contHeader {
+    justify-content: end;
+}
+
+.contMain {
+    height: calc( 100vh - 70px - 80px );
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: calc( 100% / 7 - 5px);
+    height: calc( 100% / 5 - 7px);
+    background-color: antiquewhite;
+}
+
+.contFooter {
+    background-color: #222222;
+    height: 80px;
+}
+
+img {
+    height: 100%;
+    width: 100%;
 }
