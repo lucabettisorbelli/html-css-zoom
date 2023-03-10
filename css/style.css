@@ -38,12 +38,13 @@ header {
     height: calc( 100vh - 70px - 85px );
     justify-content: space-between;
     flex-wrap: wrap;
+    overflow-y: auto;
 }
 
 .card {
     width: calc( 100% / 7 - 5px);
-    height: calc( 100% / 5 - 7px);
-    background-color: antiquewhite;
+    height: 200px;
+    padding: 5px 0;
 }
 
 img {
@@ -57,7 +58,7 @@ img {
 
 .card i {
     position: absolute;
-    bottom: 2px;
+    bottom: 10px;
     left: 0;
     color: white;
     font-size: 12px;
